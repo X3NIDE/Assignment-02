@@ -71,7 +71,7 @@ main{
  }
 
  #side-a{
-    background-color:  rgba(212, 13, 13, 0.918);;
+    background-color:  rgba(212, 13, 13, 0.918);
     color: white;
  }
 
@@ -82,6 +82,20 @@ main{
     grid-row-gap: 30px;
     box-shadow: #161616;
     
+ }
+
+ .blogs{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    /* box-shadow: 6px 3px rgba(0, 0, 0, 0.062); */
+    margin-right: 30px;
+    padding: 10px;
+ }
+
+ .blog-button{
+    background-color: rgba(212, 13, 13, 0.918);
+    /* border: 1px solid black; */
+    color: white;
+    margin-top: 20px;
  }
 
 /* Footer Starts from here  */
