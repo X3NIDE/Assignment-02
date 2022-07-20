@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     /* margin: 20px 60px; */
+   
 }
 main{
     display: flex;
@@ -46,7 +47,7 @@ main{
 
  /* Main part stars from here  */
 
- .side-part{
+ .side-part{  
     background-color: #161616;
     display: flex;
     flex-direction: column;
@@ -98,6 +99,11 @@ main{
     margin-top: 20px;
  }
 
+ .blog-icon{
+   
+   color: rgb(123, 121, 124);
+ }
+
 /* Footer Starts from here  */
 
 footer{
@@ -107,6 +113,7 @@ footer{
     color: white;
     padding-bottom: 20px;
     margin: 0;
+  
 }
 
 #footer{
@@ -121,7 +128,7 @@ hr{
 
 .footer-a{
     color: white;
-    padding-right:20px ;
+    padding-right:40px ;
     text-decoration: none;
 }
 
