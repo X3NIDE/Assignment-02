@@ -146,6 +146,21 @@ hr{
     padding-right:20px ;
     text-decoration: none;
 }
+.footer-icons{
+    margin-top: 20px;
+    
+ 
+ }
+ .fa-facebook{
+    padding: right 20px;
+    margin-right: 50px;
+ }
+ 
+ 
+ .fa-twitter{
+    margin-right: 50px;
+ }
+ 
 
 /* FOR MOBILE  */
 
