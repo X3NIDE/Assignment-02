@@ -56,7 +56,8 @@ main{
     font-size: 18px;
     font-weight: 900;
     max-height: 350px;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-top: 10px;
     
  }
 
@@ -75,15 +76,50 @@ main{
     color: white;
  }
 
-
- .blog{
+ .flag-part{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-    box-shadow: #161616;
+    grid-row-gap: 10px;
+    grid-column-gap: 100px;
+    margin: 50px 20pxpx;
+    padding-bottom: 40px;
+   
     
  }
 
+ .flags{
+    display: flex;
+    margin-top: 30px;
+    
+ }
+    .germany{
+        margin-right: 20px;
+    }
+
+    .france{
+        margin-left: 20px;
+    }
+    .flags-p{
+        text-align: center;
+        font-weight: 500;
+       
+    }
+    #flags-p{
+        color: rgb(120, 122, 124);
+    }
+
+    .flag-section{
+        border: 1px solid rgba(0, 0, 0, 0.041);
+        box-shadow: 6px 3px rgba(0, 0, 0, 0.062);
+        height: 200px;
+        padding: 20px;
+        
+    }
+
+    span{
+        font-weight: 600;
+        padding-top: 15px;
+    }
 /* Footer Starts from here  */
 
 footer{
