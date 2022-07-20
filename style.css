@@ -134,12 +134,23 @@ hr{
 
 /* FOR MOBILE  */
 
-@media only screen and (max-width:740px) {
-    .banner-section{
-        grid-template-columns: repeat(1, 1fr);
-        
-    }
-    main{
-        grid-template-columns: repeat(1, 1fr);
-    }
+@media only screen and (max-width:688x) {
+    
+   .banner-section{
+      width: 100%;
+      text-align: center;
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+   }
+}
+
+/* For Tablets  */
+
+@media only screen (min-width:688px) and (max-width:992px){
+   .banner-section{
+      width: 100%;
+      text-align: center;
+      grid-template-columns: repeat(2, 1fr);
+      flex-direction: column;
+   }
 }
